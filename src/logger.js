@@ -26,7 +26,7 @@ function logError(filename, message) {
 }
 
 function logStart(watchPath) {
-  console.log(chalk.bold.blue('\n  File Automator'))
+  console.log(chalk.bold.blue('\n  Nook Application'))
   console.log(chalk.gray('  Watching: ') + chalk.white(watchPath))
   console.log(chalk.gray('  Press Ctrl+C to stop\n'))
 }

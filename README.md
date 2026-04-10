@@ -1,10 +1,13 @@
-# File Automator
+# Nook App
 
 A Node.js utility designed to keep your folders clean by automatically organizing incoming files into categorized subdirectories based on their file extensions.
 
 ## Project Details
 
 This application monitors a specified directory (defaults to your user's **Downloads** folder) in real-time. When a new file is detected, it is moved to a subfolder corresponding to its type (e.g., `.pdf` goes to `Documents`, `.jpg` goes to `Images`).
+
+### Application Log
+![alt text](assets/image.png)
 
 ### Key Features
 - **Real-time Monitoring**: Uses `chokidar` to watch for file system changes.
@@ -50,3 +53,4 @@ To watch a **different folder**, provide the absolute path as an argument:
 ```bash
 node index.js "C:\Path\To\Your\Folder"
 ```
+
