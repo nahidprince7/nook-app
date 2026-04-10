@@ -25,7 +25,7 @@ async function moveFile(filePath) {
   let retries = 5
   while (retries--) {
     try {
-      await fse.move(filePath, destPath, { overwrite: false })
+      await fse.move(filePath, destPath, { overwrite: true })
       logMove(filename, destFolder)
       return
     } catch (err) {
