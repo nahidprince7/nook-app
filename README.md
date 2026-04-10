@@ -34,7 +34,7 @@ This application monitors a specified directory (defaults to your user's **Downl
    ```bash
    cd nook-app
    ```
-3. Install the required dependencies:
+3. Install the required dependencies (Note: requires `chalk@4` for CommonJS support):
    ```bash
    npm install
    ```
